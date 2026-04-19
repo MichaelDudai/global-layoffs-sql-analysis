@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project analyzes a global layoffs dataset covering the years **2020–2023** (including the **first three months of 2023**).
+Most real-world datasets are messy, inconsistent, and not immediately usable for analysis.
+
+This project analyzes a global layoffs dataset covering the years **2020–2023** (including the **first three months of 2023**), focusing on transforming raw data into a clean, structured format and extracting meaningful insights.
+
 The workflow was completed in SQL and includes two main stages:
 
 1. **Data Cleaning and Preparation**
@@ -141,6 +144,20 @@ Used `DENSE_RANK()` to rank companies by total layoffs within each year and extr
 * Window functions such as `DENSE_RANK()` and rolling totals
 * Segmentation by company, industry, country, and stage
 * Structured SQL workflow for exploratory analysis
+
+---
+
+## Key Insights
+
+Based on the analysis, several patterns emerged:
+
+- Layoffs peaked during specific periods, indicating strong economic cycles affecting multiple industries simultaneously  
+- The tech sector showed a disproportionately high number of layoffs compared to other industries  
+- A relatively small number of companies contributed to a large share of total layoffs each year  
+- Several companies experienced full workforce reductions (100% layoffs), including both low-funded and well-funded organizations  
+- Layoffs were heavily concentrated in specific countries, highlighting regional economic impact  
+
+These findings demonstrate how raw data can be transformed into meaningful insights that reflect real-world economic trends.
 
 ---
 
